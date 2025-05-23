@@ -18,5 +18,23 @@ const countdownInterval = setInterval(() => {
    const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
    document.getElementById("countdown").innerHTML =
-      `${days}d ${hours}h ${minutes}m ${seconds}s`;
+      /* `${days} ${hours}h ${minutes}m ${seconds}s`; */
+      `
+      <div>
+         <p >${days}</p>
+         <p>Días</p>
+      </div>
+      <div>
+         <p>${hours}</p>
+         <p>Horas</p>
+      </div>
+      <div>
+         <p>${minutes}</p>
+         <p>Minutos</p>
+      </div>
+      <div>
+         <p>${seconds}</p>
+         <p>Segundos</p>
+      </div>
+      `;
 }, 1000);
