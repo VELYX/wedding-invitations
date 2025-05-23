@@ -1,0 +1,12 @@
+body {
+   margin: 0;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   vertical-align: middle;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
