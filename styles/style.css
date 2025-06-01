@@ -1,26 +1,24 @@
 .tangerine-regular {
    font-family: "Tangerine", cursive;
-   font-weight: 400;
    font-style: normal;
-}
+   font-weight: 400;
+} 
 
 .tangerine-bold {
    font-family: "Tangerine", cursive;
-   font-weight: 700;
    font-style: normal;
+   font-weight: 700;
 }
 
 /* <weight>: Use a value from 300 to 900
 <uniquifier>: Use a unique and descriptive class name */
 
 .merienda {
-   font-family: "Merienda", cursive;
    font-optical-sizing: auto;
-   font-weight: 300;
+   font-family: "Merienda", cursive;
    font-style: normal;
+   font-weight: 300;
 }
-
-
 
 body {
    margin: 0;
@@ -28,33 +26,36 @@ body {
 }
 
 h1 {
-   font-family: "Tangerine", cursive;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 12em;
    margin-bottom: 2%;
+   font-size: 12em;
+   font-family: "Tangerine", cursive;
+   font-style: normal;
+   font-weight: bold;
 }
 
 h2 {
-   font-size: 3em;
    margin-bottom: 2%;
+   font-size: 3em;
 }
 
 p {
-   text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.60);
-   font-size: 1.5em;
    padding-top: 5%;
+   font-size: 1.5em;
+   text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.60);
 }
 
 .main {
-   text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.60);
    display: flex;
    flex-direction: column;
-   vertical-align: middle;
-   align-items: center;
    justify-content: center;
+   align-items: center;
    height: 100vh;
+   text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.60);
+   text-align: center;
+   vertical-align: middle;
 }
+
+
 
 .countdown {
    display: flex;
@@ -68,7 +69,8 @@ p {
 
 .countdown div,
 .countdown div p {
-   padding: 0;
    margin: 0;
+   padding: 0;
    text-align: center;
 }
+
