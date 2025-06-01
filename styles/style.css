@@ -38,13 +38,11 @@ h1 {
 
 h2 {
    margin-bottom: 2%;
-
    font-size: 3em;
    font-family: "Karla", sans-serif;
    font-optical-sizing: auto;
    font-weight: 300;
    font-style: normal;
-
    text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.60);
 }
 
@@ -80,6 +78,7 @@ p {
    margin: 0;
    padding: 0;
    text-align: center;
+   text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.60);
 }
 
 .countdown div {
