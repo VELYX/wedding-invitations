@@ -1,47 +1,56 @@
 .tangerine-regular {
    font-family: "Tangerine", cursive;
-   font-style: normal;
    font-weight: 400;
-} 
+   font-style: normal;
+}
 
 .tangerine-bold {
    font-family: "Tangerine", cursive;
-   font-style: normal;
    font-weight: 700;
+   font-style: normal;
 }
 
-/* <weight>: Use a value from 300 to 900
-<uniquifier>: Use a unique and descriptive class name */
-
-.merienda {
+.karla-extra_light {
+   font-family: "Karla", sans-serif;
    font-optical-sizing: auto;
-   font-family: "Merienda", cursive;
+   font-weight: 200;
    font-style: normal;
-   font-weight: 300;
 }
 
 body {
    margin: 0;
+   font-family: "Karla", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
    color: #CBC5D9;
+
 }
 
 h1 {
    margin-bottom: 2%;
+   padding: 0 10%;
    font-size: 12em;
    font-family: "Tangerine", cursive;
+   font-weight: 700;
    font-style: normal;
-   font-weight: bold;
 }
 
 h2 {
    margin-bottom: 2%;
+
    font-size: 3em;
+   font-family: "Karla", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+
+   text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.60);
 }
 
 p {
    padding-top: 5%;
    font-size: 1.5em;
-   text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.60);
 }
 
 .main {
@@ -55,10 +64,9 @@ p {
    vertical-align: middle;
 }
 
-
-
 .countdown {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-evenly;
    width: 50vw;
 }
@@ -74,3 +82,39 @@ p {
    text-align: center;
 }
 
+.countdown div {
+   padding: 0 2%;
+   width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+   h1 {
+      font-size: 8em;
+      margin: 6% 0;
+   }
+
+   h2 {
+      font-size: 2em;
+      margin: 6% 0;
+   }
+
+   p {
+      text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.60);
+   }
+
+   .main {
+      justify-content: space-evenly;
+   }
+
+   .countdown {
+      width: 80vw;
+   }
+
+   .countdown div {
+      padding: 0 4%;
+   }
+
+   .countdown div p:first-of-type {
+      font-size: 3.5em;
+   }
+}
